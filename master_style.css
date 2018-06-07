@@ -1,0 +1,318 @@
+:root {
+	--background:#A3C9C1;
+	--foreground:#D3EDE7;
+	--body:#FFFFFF;
+	--accent:#82B7AB;
+	--font:#0E0B0F;
+	--font-light:#7F827E;
+	
+	--dark-foreground:#609389;
+	--dark-font:#F2FFFC;
+	
+}
+
+body{
+	background-color: var(--dark-foreground);
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+// NAVIGATION MENU ////////////////////////////////////////////////////////////////////////{}
+ul{
+	list-style-type: none;
+	
+	color: var(--accent);
+	
+	margin-left: 1%;
+	margin-right: 1%;
+
+	width: 98%;
+
+	padding: 0;
+	overflow: hidden;
+	
+	background-color: var(--foreground);
+
+	border-top: 8px solid var(--accent);
+	border-bottom: 8px solid var(--accent);
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	
+	color: var(--accent);
+
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: var(--foreground);
+		
+	background-color: var(--accent);
+}
+
+// HEADER /////////////////////////////////////////////////////////////////////////////////{}
+div.header {
+	
+	
+	float: left;
+	width: 96%;
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	
+	
+}
+
+
+
+// MAIN ///////////////////////////////////////////////////////////////////////////////////{}
+div.main{
+	background-color: var(--background);
+	color: var(--dark-font);
+	
+	float:right;
+		
+	width: 100%;
+	
+	
+}
+
+
+
+// FOOTER /////////////////////////////////////////////////////////////////////////////////{}
+div.footer{
+	background-color: var(--dark-foreground);
+	color: var(--dark-font);
+	
+	margin-top: 20px;
+	
+	padding-right:1%;
+	
+	float:right;
+	height: 140px;
+	width: 99%;
+}
+
+p.footer-text{
+	
+	font-size:smallest;
+	
+	margin-top: 2px;
+	margin-bottom: 2px;
+	
+	clear: both;
+	float: right;
+	
+	font-size: x-small;
+	
+}
+
+
+// BLOG ///////////////////////////////////////////////////////////////////////////////////{}
+div.blog{
+	background-color: var(--foreground);
+	color: var(--font);
+	
+	margin-left: 0%;
+	margin-right: 2%;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	float:right;
+	width: 68%;
+	
+	border-top: 8px solid var(--accent);
+	border-bottom: 8px solid var(--accent);
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.blog-body{
+	background-color: var(--body);
+	color: black;
+	
+	float: left;
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	
+	padding-left: 2%;
+	padding-right: 2%;
+	
+	width: 92%;
+}
+
+h2.blog-title{
+	
+	color: black;
+	
+	clear: both;
+	float: left;
+	
+	text-decoration: underline;
+	
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+p1.blog-time{
+	
+	color: var(--font-light);
+	
+	clear: both;
+	float: left;
+	
+	margin-bottom: 10px;
+}
+
+p1.blog-main{
+	
+	color: black;
+	
+	clear: both;
+	float: left;
+	
+	margin-bottom: 10px;
+}
+
+div.blog-container{
+	color: var(--font);
+	
+	margin-right: 2%;
+
+	margin-top: 16px;
+	
+	float: right;
+	
+	width: 68%;
+	
+}
+
+// SIDE VIEW //////////////////////////////////////////////////////////////////////////////{}
+div.side-view{
+	background-color: var(--foreground);
+	color: var(--font);
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	float:left;
+	width: 26%;
+
+	border-top: 8px solid var(--accent);
+	border-bottom: 8px solid var(--accent);
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.side-view-body{
+	background-color: var(--foreground);
+	color: black;
+	
+	float:right;
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	
+	padding-left: 4%;
+	padding-right: 4%;
+	
+	width: 88%;
+}
+
+h3.side-view-title{
+	
+	color: var(--accent);
+	
+	clear: both;
+	float: left;
+	
+	margin-top: 6px;
+	margin-bottom: 6px;
+	
+	
+}
+
+div.size-view-container{
+	color: var(--font);
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 16px;
+	
+	float:left;
+	
+	width: 26%;
+	
+}
+
+// BUTTON /////////////////////////////////////////////////////////////////////////////////{}
+div.button{
+	
+	background-color: var(--accent);
+	color: var(--foreground);
+	
+	margin-left: 8px;
+	
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	
+	float:right;
+	
+	width:30%;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+
+// LINE ///////////////////////////////////////////////////////////////////////////////////{}
+div.line{
+	background-color: var(--accent);
+	
+	float: left;
+	
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:10px;
+	margin-bottom:10px;
+
+	width: 98%;
+	height: 4px;
+}
+
+
+
+// BORDER BOX /////////////////////////////////////////////////////////////////////////////{}
+div.border-box{
+	background-color: var(--foreground);
+	color: var(--font);
+	
+	margin: 2%;
+	
+	float: left;
+	
+	height: 80%;
+	width: 80%;
+
+
+
+	border: 5px solid var(--background);
+	border-radius: 5px;
+}
